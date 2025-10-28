@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+/* Custom scrollbar for the product slider */
+::-webkit-scrollbar {
+  height: 6px; /* Scrollbar thickness */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Light gray background */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #000; /* Black scrollbar thumb */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #222; /* Slightly lighter black on hover */
+}
+
+/* Optional: hide scrollbar in Firefox and style similar */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #000 #f1f1f1; /* thumb, track */
+}
+
+.custom-scroll::-webkit-scrollbar {
+  height: 6px;
+}
+
+.custom-scroll::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+.custom-scroll::-webkit-scrollbar-thumb {
+  background: #000;
+  border-radius: 10px;
+}
+
+.custom-scroll::-webkit-scrollbar-thumb:hover {
+  background: #222;
+}
+
+.custom-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: #000 #f1f1f1;
+}

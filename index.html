@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/index.css">
+    <title>Ecommerce</title>
+</head>
+
+<body>
+    <!-- Top Banner -->
+    <div class="flex items-center justify-center w-full text-white bg-black h-9">
+        <p>Sign up and get 20% off to your first order. <a href="#" class="underline"> Sign Up Now</a></p>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="flex items-center justify-between w-4/5 gap-10 py-6 mx-auto">
+        <div class="w-40 h-[22px] shrink-0">
+            <img src="./assets/images/logo.svg" alt="Logo">
+        </div>
+        <div class="flex gap-6">
+            <a href="#">Home</a>
+            <a href="#">Shop</a>
+            <a href="#">Categories</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </div>
+        <div class="flex items-center w-full h-12 gap-3 px-4 bg-gray-100 rounded-full justify-baseline">
+            <div class="w-6 h-6 shrink-0">
+                <img src="./assets/images/search.svg" alt="Search">
+            </div>
+            <div class="w-full">
+                <input class="w-full" type="text" placeholder="Search for products...">
+            </div>
+        </div>
+        <div class="flex gap-3">
+            <div class="w-6 h-6 shrink-0">
+                <img src="./assets/images/cart.svg" alt="Cart">
+            </div>
+            <div class="w-6 h-6 shrink-0">
+                <img src="./assets/images/profile.svg" alt="User Profile">
+            </div>
+        </div>
+    </nav>
+
+    <!-- Cover -->
+    <div class="relative w-full h-[600px] bg-gray-100">
+        <img src="./assets/images/cover.jpg" alt="Cover Image" class="object-cover w-full h-full">
+        <div class="absolute inset-0 w-4/5 mx-auto">
+            <div class="absolute w-[596px] top-24 left-0 flex flex-col gap-8 justify-items-start">
+                <h1 class="text-6xl font-extrabold">FIND CLOTHES THAT MATCHES YOUR STYLE</h1>
+                <p>Browse through our diverse range of meticulously crafted garments...</p>
+                <button class="h-12 text-white bg-black rounded-full w-52">Shop Now</button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Clients Slider -->
+    <div class="flex items-center w-full text-5xl text-white bg-black h-28 justify-evenly">
+        <h2>Versace</h2>
+        <h2>Zara</h2>
+        <h2>Gucci</h2>
+        <h2>Prada</h2>
+        <h2>Calvin Klein</h2>
+    </div>
+
+    <!-- New Products Slider -->
+    <div class="flex flex-col items-center justify-center w-4/5 gap-10 py-12 mx-auto">
+        <div class="flex items-baseline justify-between w-full">
+            <h2 class="text-4xl font-extrabold">New Arrivals</h2>
+            <div class="flex items-center gap-1 text-xl font-medium border-b-2 text-nowrap">
+                <h3>More Products</h3>
+                <div>
+                    <img src="./assets/images/arrow-right.svg" alt="Right Arrow">
+                </div>
+            </div>
+        </div>
+        <div class="w-full">
+            <div class="flex justify-between w-full gap-5 overflow-hidden">
+                <div class="flex flex-col items-start justify-center gap-0.5 shrink-0">
+                    <div class="relative">
+                        <img src="./assets/images/product1.jpg" alt="Product 1"
+                            class="object-cover w-[300px] h-[300px] overflow-hidden rounded-2xl">
+                        <div class="absolute flex flex-col gap-2 top-4 left-4">
+                            <div class="bg-white rounded-sm px-3 py-0.5 font-bold">
+                                <h3>NEW</h3>
+                            </div>
+                            <div class="bg-emerald-500 rounded-sm px-3 py-0.5 font-bold text-white">
+                                <h3>-50%</h3>
+                            </div>
+                        </div>
+                        <div class="absolute flex flex-col gap-2 px-2 py-2 bg-white rounded-full top-4 right-4">
+                            <img src="./assets/images/heart.svg" alt="Wishlist">
+                        </div>
+
+                    </div>
+                    <h3 class="pt-4 font-bold text-l">T-shirt with Tape Details</h3>
+                    <div class="stars">
+                        <img src="./assets/images/rating.svg" alt="Rating Star" class="inline-block w-4 h-4">
+                        <img src="./assets/images/rating.svg" alt="Rating Star" class="inline-block w-4 h-4">
+                        <img src="./assets/images/rating.svg" alt="Rating Star" class="inline-block w-4 h-4">
+                        <img src="./assets/images/rating.svg" alt="Rating Star" class="inline-block w-4 h-4">
+                        <img src="./assets/images/rating.svg" alt="Rating Star" class="inline-block w-4 h-4">
+                    </div>
+                    <div class="flex gap-2">
+                        <p class="text-xl font-bold">$120</p>
+                        <p class="text-xl text-gray-400 line-through">$160</p>
+                    </div>
+                </div>
+                <div class="flex flex-col items-start justify-center gap-0.5 shrink-0">
+                    <div class="relative">
+                        <img src="./assets/images/product1.jpg" alt="Product 1"
+                            class="object-cover w-[300px] h-[300px] overflow-hidden rounded-2xl">
+                        <div class="absolute flex flex-col gap-2 top-4 left-4">
+                            <div class="bg-white rounded-sm px-3 py-0.5 font-bold">
+                                <h3>NEW</h3>
+                            </div>
+                            <div class="bg-emerald-500 rounded-sm px-3 py-0.5 font-bold text-white">
+                                <h3>-50%</h3>
+                            </div>
+                        </div>
+                        <div class="absolute flex flex-col gap-2 px-2 py-2 bg-white rounded-full top-4 right-4">
+                            <img src="./assets/images/heart.svg" alt="Wishlist">
+                        </div>
+
+                    </div>
+                    <h3 class="pt-4 font-bold text-l">T-shirt with Tape Details</h3>
+                    <div class="stars">
+                        <img src="./assets/images/rating.svg" alt="Rating Star" class="inline-block w-4 h-4">
+                        <img src="./assets/images/rating.svg" alt="Rating Star" class="inline-block w-4 h-4">
+                        <img src="./assets/images/rating.svg" alt="Rating Star" class="inline-block w-4 h-4">
+                        <img src="./assets/images/rating.svg" alt="Rating Star" class="inline-block w-4 h-4">
+                        <img src="./assets/images/rating.svg" alt="Rating Star" class="inline-block w-4 h-4">
+                    </div>
+                    <div class="flex gap-2">
+                        <p class="text-xl font-bold">$120</p>
+                        <p class="text-xl text-gray-400 line-through">$160</p>
+                    </div>
+                </div>
+                <div class="flex flex-col items-start justify-center gap-0.5 shrink-0">
+                    <div class="relative">
+                        <img src="./assets/images/product1.jpg" alt="Product 1"
+                            class="object-cover w-[300px] h-[300px] overflow-hidden rounded-2xl">
+                        <div class="absolute flex flex-col gap-2 top-4 left-4">
+                            <div class="bg-white rounded-sm px-3 py-0.5 font-bold">
+                                <h3>NEW</h3>
+                            </div>
+                            <div class="bg-emerald-500 rounded-sm px-3 py-0.5 font-bold text-white">
+                                <h3>-50%</h3>
+                            </div>
+                        </div>
+                        <div class="absolute flex flex-col gap-2 px-2 py-2 bg-white rounded-full top-4 right-4">
+                            <img src="./assets/images/heart.svg" alt="Wishlist">
+                        </div>
+
+                    </div>
+                    <h3 class="pt-4 font-bold text-l">T-shirt with Tape Details</h3>
+                    <div class="stars">
+                        <img src="./assets/images/rating.svg" alt="Rating Star" class="inline-block w-4 h-4">
+                        <img src="./assets/images/rating.svg" alt="Rating Star" class="inline-block w-4 h-4">
+                        <img src="./assets/images/rating.svg" alt="Rating Star" class="inline-block w-4 h-4">
+                        <img src="./assets/images/rating.svg" alt="Rating Star" class="inline-block w-4 h-4">
+                        <img src="./assets/images/rating.svg" alt="Rating Star" class="inline-block w-4 h-4">
+                    </div>
+                    <div class="flex gap-2">
+                        <p class="text-xl font-bold">$120</p>
+                        <p class="text-xl text-gray-400 line-through">$160</p>
+                    </div>
+                </div>
+                <div class="flex flex-col items-start justify-center gap-0.5 shrink-0">
+                    <div class="relative">
+                        <img src="./assets/images/product1.jpg" alt="Product 1"
+                            class="object-cover w-[300px] h-[300px] overflow-hidden rounded-2xl">
+                        <div class="absolute flex flex-col gap-2 top-4 left-4">
+                            <div class="bg-white rounded-sm px-3 py-0.5 font-bold">
+                                <h3>NEW</h3>
+                            </div>
+                            <div class="bg-emerald-500 rounded-sm px-3 py-0.5 font-bold text-white">
+                                <h3>-50%</h3>
+                            </div>
+                        </div>
+                        <div class="absolute flex flex-col gap-2 px-2 py-2 bg-white rounded-full top-4 right-4">
+                            <img src="./assets/images/heart.svg" alt="Wishlist">
+                        </div>
+
+                    </div>
+                    <h3 class="pt-4 font-bold text-l">T-shirt with Tape Details</h3>
+                    <div class="stars">
+                        <img src="./assets/images/rating.svg" alt="Rating Star" class="inline-block w-4 h-4">
+                        <img src="./assets/images/rating.svg" alt="Rating Star" class="inline-block w-4 h-4">
+                        <img src="./assets/images/rating.svg" alt="Rating Star" class="inline-block w-4 h-4">
+                        <img src="./assets/images/rating.svg" alt="Rating Star" class="inline-block w-4 h-4">
+                        <img src="./assets/images/rating.svg" alt="Rating Star" class="inline-block w-4 h-4">
+                    </div>
+                    <div class="flex gap-2">
+                        <p class="text-xl font-bold">$120</p>
+                        <p class="text-xl text-gray-400 line-through">$160</p>
+                    </div>
+                </div>
+                <div class="flex flex-col items-start justify-center gap-0.5 shrink-0">
+                    <div class="relative">
+                        <img src="./assets/images/product1.jpg" alt="Product 1"
+                            class="object-cover w-[300px] h-[300px] overflow-hidden rounded-2xl">
+                        <div class="absolute flex flex-col gap-2 top-4 left-4">
+                            <div class="bg-white rounded-sm px-3 py-0.5 font-bold">
+                                <h3>NEW</h3>
+                            </div>
+                            <div class="bg-emerald-500 rounded-sm px-3 py-0.5 font-bold text-white">
+                                <h3>-50%</h3>
+                            </div>
+                        </div>
+                        <div class="absolute flex flex-col gap-2 px-2 py-2 bg-white rounded-full top-4 right-4">
+                            <img src="./assets/images/heart.svg" alt="Wishlist">
+                        </div>
+
+                    </div>
+                    <h3 class="pt-4 font-bold text-l">T-shirt with Tape Details</h3>
+                    <div class="stars">
+                        <img src="./assets/images/rating.svg" alt="Rating Star" class="inline-block w-4 h-4">
+                        <img src="./assets/images/rating.svg" alt="Rating Star" class="inline-block w-4 h-4">
+                        <img src="./assets/images/rating.svg" alt="Rating Star" class="inline-block w-4 h-4">
+                        <img src="./assets/images/rating.svg" alt="Rating Star" class="inline-block w-4 h-4">
+                        <img src="./assets/images/rating.svg" alt="Rating Star" class="inline-block w-4 h-4">
+                    </div>
+                    <div class="flex gap-2">
+                        <p class="text-xl font-bold">$120</p>
+                        <p class="text-xl text-gray-400 line-through">$160</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Separator -->
+    <div class="w-4/5 h-0.5 bg-gray-300 mx-auto">
+    </div>
+
+    <!-- Top Selling Products Slider -->
+    <div class="flex flex-col items-center justify-center w-4/5 gap-10 py-12 mx-auto">
+        <div class="flex items-baseline justify-between w-full">
+            <h2 class="text-4xl font-extrabold">Top Selling</h2>
+            <div class="flex items-center gap-1 text-xl font-medium border-b-2 text-nowrap">
+                <h3>More Products</h3>
+                <div>
+                    <img src="./assets/images/arrow-right.svg" alt="Right Arrow">
+                </div>
+            </div>
+        </div>
+        <div class="w-full">
+            <div class="flex justify-between w-full gap-5 overflow-hidden">
+                <div class="flex flex-col items-start justify-center gap-0.5 shrink-0">
+                    <div class="relative">
+                        <img src="./assets/images/product1.jpg" alt="Product 1"
+                            class="object-cover w-[300px] h-[300px] overflow-hidden rounded-2xl">
+                        <div class="absolute flex flex-col gap-2 top-4 left-4">
+                            <div class="bg-white rounded-sm px-3 py-0.5 font-bold">
+                                <h3>NEW</h3>
+                            </div>
+                            <div class="bg-emerald-500 rounded-sm px-3 py-0.5 font-bold text-white">
+                                <h3>-50%</h3>
+                            </div>
+                        </div>
+                        <div class="absolute flex flex-col gap-2 px-2 py-2 bg-white rounded-full top-4 right-4">
+                            <img src="./assets/images/heart.svg" alt="Wishlist">
+                        </div>
+
+                    </div>
+                    <h3 class="pt-4 font-bold text-l">T-shirt with Tape Details</h3>
+                    <div class="stars">
+                        <img src="./assets/images/rating.svg" alt="Rating Star" class="inline-block w-4 h-4">
+                        <img src="./assets/images/rating.svg" alt="Rating Star" class="inline-block w-4 h-4">
+                        <img src="./assets/images/rating.svg" alt="Rating Star" class="inline-block w-4 h-4">
+                        <img src="./assets/images/rating.svg" alt="Rating Star" class="inline-block w-4 h-4">
+                        <img src="./assets/images/rating.svg" alt="Rating Star" class="inline-block w-4 h-4">
+                    </div>
+                    <div class="flex gap-2">
+                        <p class="text-xl font-bold">$120</p>
+                        <p class="text-xl text-gray-400 line-through">$160</p>
+                    </div>
+                </div>
+                <div class="flex flex-col items-start justify-center gap-0.5 shrink-0">
+                    <div class="relative">
+                        <img src="./assets/images/product1.jpg" alt="Product 1"
+                            class="object-cover w-[300px] h-[300px] overflow-hidden rounded-2xl">
+                        <div class="absolute flex flex-col gap-2 top-4 left-4">
+                            <div class="bg-white rounded-sm px-3 py-0.5 font-bold">
+                                <h3>NEW</h3>
+                            </div>
+                            <div class="bg-emerald-500 rounded-sm px-3 py-0.5 font-bold text-white">
+                                <h3>-50%</h3>
+                            </div>
+                        </div>
+                        <div class="absolute flex flex-col gap-2 px-2 py-2 bg-white rounded-full top-4 right-4">
+                            <img src="./assets/images/heart.svg" alt="Wishlist">
+                        </div>
+
+                    </div>
+                    <h3 class="pt-4 font-bold text-l">T-shirt with Tape Details</h3>
+                    <div class="stars">
+                        <img src="./assets/images/rating.svg" alt="Rating Star" class="inline-block w-4 h-4">
+                        <img src="./assets/images/rating.svg" alt="Rating Star" class="inline-block w-4 h-4">
+                        <img src="./assets/images/rating.svg" alt="Rating Star" class="inline-block w-4 h-4">
+                        <img src="./assets/images/rating.svg" alt="Rating Star" class="inline-block w-4 h-4">
+                        <img src="./assets/images/rating.svg" alt="Rating Star" class="inline-block w-4 h-4">
+                    </div>
+                    <div class="flex gap-2">
+                        <p class="text-xl font-bold">$120</p>
+                        <p class="text-xl text-gray-400 line-through">$160</p>
+                    </div>
+                </div>
+                <div class="flex flex-col items-start justify-center gap-0.5 shrink-0">
+                    <div class="relative">
+                        <img src="./assets/images/product1.jpg" alt="Product 1"
+                            class="object-cover w-[300px] h-[300px] overflow-hidden rounded-2xl">
+                        <div class="absolute flex flex-col gap-2 top-4 left-4">
+                            <div class="bg-white rounded-sm px-3 py-0.5 font-bold">
+                                <h3>NEW</h3>
+                            </div>
+                            <div class="bg-emerald-500 rounded-sm px-3 py-0.5 font-bold text-white">
+                                <h3>-50%</h3>
+                            </div>
+                        </div>
+                        <div class="absolute flex flex-col gap-2 px-2 py-2 bg-white rounded-full top-4 right-4">
+                            <img src="./assets/images/heart.svg" alt="Wishlist">
+                        </div>
+
+                    </div>
+                    <h3 class="pt-4 font-bold text-l">T-shirt with Tape Details</h3>
+                    <div class="stars">
+                        <img src="./assets/images/rating.svg" alt="Rating Star" class="inline-block w-4 h-4">
+                        <img src="./assets/images/rating.svg" alt="Rating Star" class="inline-block w-4 h-4">
+                        <img src="./assets/images/rating.svg" alt="Rating Star" class="inline-block w-4 h-4">
+                        <img src="./assets/images/rating.svg" alt="Rating Star" class="inline-block w-4 h-4">
+                        <img src="./assets/images/rating.svg" alt="Rating Star" class="inline-block w-4 h-4">
+                    </div>
+                    <div class="flex gap-2">
+                        <p class="text-xl font-bold">$120</p>
+                        <p class="text-xl text-gray-400 line-through">$160</p>
+                    </div>
+                </div>
+                <div class="flex flex-col items-start justify-center gap-0.5 shrink-0">
+                    <div class="relative">
+                        <img src="./assets/images/product1.jpg" alt="Product 1"
+                            class="object-cover w-[300px] h-[300px] overflow-hidden rounded-2xl">
+                        <div class="absolute flex flex-col gap-2 top-4 left-4">
+                            <div class="bg-white rounded-sm px-3 py-0.5 font-bold">
+                                <h3>NEW</h3>
+                            </div>
+                            <div class="bg-emerald-500 rounded-sm px-3 py-0.5 font-bold text-white">
+                                <h3>-50%</h3>
+                            </div>
+                        </div>
+                        <div class="absolute flex flex-col gap-2 px-2 py-2 bg-white rounded-full top-4 right-4">
+                            <img src="./assets/images/heart.svg" alt="Wishlist">
+                        </div>
+
+                    </div>
+                    <h3 class="pt-4 font-bold text-l">T-shirt with Tape Details</h3>
+                    <div class="stars">
+                        <img src="./assets/images/rating.svg" alt="Rating Star" class="inline-block w-4 h-4">
+                        <img src="./assets/images/rating.svg" alt="Rating Star" class="inline-block w-4 h-4">
+                        <img src="./assets/images/rating.svg" alt="Rating Star" class="inline-block w-4 h-4">
+                        <img src="./assets/images/rating.svg" alt="Rating Star" class="inline-block w-4 h-4">
+                        <img src="./assets/images/rating.svg" alt="Rating Star" class="inline-block w-4 h-4">
+                    </div>
+                    <div class="flex gap-2">
+                        <p class="text-xl font-bold">$120</p>
+                        <p class="text-xl text-gray-400 line-through">$160</p>
+                    </div>
+                </div>
+                <div class="flex flex-col items-start justify-center gap-0.5 shrink-0">
+                    <div class="relative">
+                        <img src="./assets/images/product1.jpg" alt="Product 1"
+                            class="object-cover w-[300px] h-[300px] overflow-hidden rounded-2xl">
+                        <div class="absolute flex flex-col gap-2 top-4 left-4">
+                            <div class="bg-white rounded-sm px-3 py-0.5 font-bold">
+                                <h3>NEW</h3>
+                            </div>
+                            <div class="bg-emerald-500 rounded-sm px-3 py-0.5 font-bold text-white">
+                                <h3>-50%</h3>
+                            </div>
+                        </div>
+                        <div class="absolute flex flex-col gap-2 px-2 py-2 bg-white rounded-full top-4 right-4">
+                            <img src="./assets/images/heart.svg" alt="Wishlist">
+                        </div>
+
+                    </div>
+                    <h3 class="pt-4 font-bold text-l">T-shirt with Tape Details</h3>
+                    <div class="stars">
+                        <img src="./assets/images/rating.svg" alt="Rating Star" class="inline-block w-4 h-4">
+                        <img src="./assets/images/rating.svg" alt="Rating Star" class="inline-block w-4 h-4">
+                        <img src="./assets/images/rating.svg" alt="Rating Star" class="inline-block w-4 h-4">
+                        <img src="./assets/images/rating.svg" alt="Rating Star" class="inline-block w-4 h-4">
+                        <img src="./assets/images/rating.svg" alt="Rating Star" class="inline-block w-4 h-4">
+                    </div>
+                    <div class="flex gap-2">
+                        <p class="text-xl font-bold">$120</p>
+                        <p class="text-xl text-gray-400 line-through">$160</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Categories -->
+    <div class="flex flex-col items-center justify-center w-4/5 gap-10 p-12 mb-12 mx-auto bg-gray-100 rounded-[40px]">
+        <div class="flex justify-center text-4xl font-extrabold">
+            <h2>Browse by Categories</h2>
+        </div>
+        <div class="w-full">
+            <div class="grid grid-cols-3 gap-4 p-4">
+                <!-- Item 1 (Casual) -->
+                <div class="relative col-span-1 overflow-hidden rounded-[20px]">
+                    <img src="./assets/images/casual.jpg" alt="Casual" class="object-cover w-full h-56">
+                    <span class="absolute text-3xl font-bold text-black top-3 left-3">Casual</span>
+                </div>
+                <!-- Item 2 (Formal) -->
+                <div class="relative col-span-2 overflow-hidden rounded-[20px]">
+                    <img src="./assets/images/formal.jpg" alt="Formal" class="object-cover w-full h-56">
+                    <span class="absolute text-3xl font-bold text-black top-3 left-3">Formal</span>
+                </div>
+                <!-- Item 3 (Party) -->
+                <div class="relative col-span-2 overflow-hidden rounded-[20px]">
+                    <img src="./assets/images/party.jpg" alt="Party" class="object-cover w-full h-56">
+                    <span class="absolute text-3xl font-bold text-black top-3 left-3">Party</span>
+                </div>
+                <!-- Item 4 (Gym) -->
+                <div class="relative col-span-1 overflow-hidden rounded-[20px]">
+                    <img src="./assets/images/gym.jpg" alt="Gym" class="object-cover w-full h-56">
+                    <span class="absolute text-3xl font-bold text-black top-3 left-3">Gym</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Testimonial Slider -->
+    <div class="flex flex-col items-center justify-center w-full gap-10 mx-auto">
+        <div class="flex justify-center text-4xl font-extrabold">
+            <h2>Our Happy Customers</h2>
+        </div>
+        <div class="w-full">
+            <div class="flex justify-between w-full gap-5 overflow-hidden">
+                <div class="flex items-start justify-center gap-5 shrink-0">
+                    <div class="w-[400px] p-8 overflow-hidden rounded-2xl border border-gray-300 flex flex-col gap-2">
+                        <div class="flex justify-center">
+                            <h2 class="flex text-xl font-extrabold">One of a kind restaurant</h2>
+                        </div>
+                        <p>"I'm blown away by the quality and style of the clothes I received from Shop.co. From casual
+                            wear to elegant dresses, every piece I've bought has exceeded my expectations.”</p>
+                        <!-- Separator -->
+                        <div class="w-full h-px mx-auto bg-gray-300">
+                        </div>
+                        <div class="flex jus">
+                            <h3 class="font-bold text-l">Sarah M.</h3>
+                            <div class="stars">
+                                <img src="./assets/images/rating.svg" alt="Rating Star" class="inline-block w-4 h-4">
+                                <img src="./assets/images/rating.svg" alt="Rating Star" class="inline-block w-4 h-4">
+                                <img src="./assets/images/rating.svg" alt="Rating Star" class="inline-block w-4 h-4">
+                                <img src="./assets/images/rating.svg" alt="Rating Star" class="inline-block w-4 h-4">
+                                <img src="./assets/images/rating.svg" alt="Rating Star" class="inline-block w-4 h-4">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-[400px] p-8 overflow-hidden rounded-2xl border border-gray-300 flex flex-col gap-2">
+                        <div class="flex justify-center">
+                            <h2 class="flex text-xl font-extrabold">One of a kind restaurant</h2>
+                        </div>
+                        <p>"I'm blown away by the quality and style of the clothes I received from Shop.co. From casual
+                            wear to elegant dresses, every piece I've bought has exceeded my expectations.”</p>
+                        <!-- Separator -->
+                        <div class="w-full h-px mx-auto bg-gray-300">
+                        </div>
+                        <div class="flex jus">
+                            <h3 class="font-bold text-l">Sarah M.</h3>
+                            <div class="stars">
+                                <img src="./assets/images/rating.svg" alt="Rating Star" class="inline-block w-4 h-4">
+                                <img src="./assets/images/rating.svg" alt="Rating Star" class="inline-block w-4 h-4">
+                                <img src="./assets/images/rating.svg" alt="Rating Star" class="inline-block w-4 h-4">
+                                <img src="./assets/images/rating.svg" alt="Rating Star" class="inline-block w-4 h-4">
+                                <img src="./assets/images/rating.svg" alt="Rating Star" class="inline-block w-4 h-4">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-[400px] p-8 overflow-hidden rounded-2xl border border-gray-300 flex flex-col gap-2">
+                        <div class="flex justify-center">
+                            <h2 class="flex text-xl font-extrabold">One of a kind restaurant</h2>
+                        </div>
+                        <p>"I'm blown away by the quality and style of the clothes I received from Shop.co. From casual
+                            wear to elegant dresses, every piece I've bought has exceeded my expectations.”</p>
+                        <!-- Separator -->
+                        <div class="w-full h-px mx-auto bg-gray-300">
+                        </div>
+                        <div class="flex jus">
+                            <h3 class="font-bold text-l">Sarah M.</h3>
+                            <div class="stars">
+                                <img src="./assets/images/rating.svg" alt="Rating Star" class="inline-block w-4 h-4">
+                                <img src="./assets/images/rating.svg" alt="Rating Star" class="inline-block w-4 h-4">
+                                <img src="./assets/images/rating.svg" alt="Rating Star" class="inline-block w-4 h-4">
+                                <img src="./assets/images/rating.svg" alt="Rating Star" class="inline-block w-4 h-4">
+                                <img src="./assets/images/rating.svg" alt="Rating Star" class="inline-block w-4 h-4">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-[400px] p-8 overflow-hidden rounded-2xl border border-gray-300 flex flex-col gap-2">
+                        <div class="flex justify-center">
+                            <h2 class="flex text-xl font-extrabold">One of a kind restaurant</h2>
+                        </div>
+                        <p>"I'm blown away by the quality and style of the clothes I received from Shop.co. From casual
+                            wear to elegant dresses, every piece I've bought has exceeded my expectations.”</p>
+                        <!-- Separator -->
+                        <div class="w-full h-px mx-auto bg-gray-300">
+                        </div>
+                        <div class="flex jus">
+                            <h3 class="font-bold text-l">Sarah M.</h3>
+                            <div class="stars">
+                                <img src="./assets/images/rating.svg" alt="Rating Star" class="inline-block w-4 h-4">
+                                <img src="./assets/images/rating.svg" alt="Rating Star" class="inline-block w-4 h-4">
+                                <img src="./assets/images/rating.svg" alt="Rating Star" class="inline-block w-4 h-4">
+                                <img src="./assets/images/rating.svg" alt="Rating Star" class="inline-block w-4 h-4">
+                                <img src="./assets/images/rating.svg" alt="Rating Star" class="inline-block w-4 h-4">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-[400px] p-8 overflow-hidden rounded-2xl border border-gray-300 flex flex-col gap-2">
+                        <div class="flex justify-center">
+                            <h2 class="flex text-xl font-extrabold">One of a kind restaurant</h2>
+                        </div>
+                        <p>"I'm blown away by the quality and style of the clothes I received from Shop.co. From casual
+                            wear to elegant dresses, every piece I've bought has exceeded my expectations.”</p>
+                        <!-- Separator -->
+                        <div class="w-full h-px mx-auto bg-gray-300">
+                        </div>
+                        <div class="flex jus">
+                            <h3 class="font-bold text-l">Sarah M.</h3>
+                            <div class="stars">
+                                <img src="./assets/images/rating.svg" alt="Rating Star" class="inline-block w-4 h-4">
+                                <img src="./assets/images/rating.svg" alt="Rating Star" class="inline-block w-4 h-4">
+                                <img src="./assets/images/rating.svg" alt="Rating Star" class="inline-block w-4 h-4">
+                                <img src="./assets/images/rating.svg" alt="Rating Star" class="inline-block w-4 h-4">
+                                <img src="./assets/images/rating.svg" alt="Rating Star" class="inline-block w-4 h-4">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="flex justify-center w-full h-64 text-white bg-black">
+            <div class="flex flex-col w-4/5 pt-20">
+                <div class="flex justify-between w-full mb-8">
+                    <div class="flex gap-8">
+                        <div>
+                            <img class="text-white" src="./assets/images/logo-white.svg" alt="Logo">
+                        </div>
+                        <div class="w-px h-full bg-white">
+                        </div>
+                        <div>Clothing Store</div>
+                    </div>
+                    <div>
+                        <div class="flex gap-10">
+                            <a href="#">Home</a>
+                            <a href="#">Shop</a>
+                            <a href="#">Categories</a>
+                            <a href="#">About</a>
+                            <a href="#">Contact</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Separator -->
+                <div class="w-full h-px mx-auto mb-4 bg-gray-300">
+                </div>
+                <div class="flex justify-between">
+                    <div>
+                        <p>Copyright © 2025 3legant. All rights reserved</p>
+                    </div>
+                    <div>
+                        <div class="flex gap-4">
+                            <div>
+                                <img src="./assets/images/instagram.svg" alt="Instagram">
+                            </div>
+                            <div>
+                                <img src="./assets/images/facebook.svg" alt="Facebook">
+                            </div>
+                            <div>
+                                <img src="./assets/images/youtube.svg" alt="Youtube">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+</body>
+
+</html>
