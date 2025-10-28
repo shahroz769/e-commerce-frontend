@@ -6,7 +6,7 @@
 }
 
 ::-webkit-scrollbar-track {
-  background: #f1f1f1; /* Light gray background */
+  background: #ffffff;
   border-radius: 10px;
 }
 
@@ -22,7 +22,7 @@
 /* Optional: hide scrollbar in Firefox and style similar */
 * {
   scrollbar-width: thin;
-  scrollbar-color: #000 #f1f1f1; /* thumb, track */
+  scrollbar-color: #000 #ffffff; /* thumb, track */
 }
 
 .custom-scroll::-webkit-scrollbar {
@@ -30,7 +30,7 @@
 }
 
 .custom-scroll::-webkit-scrollbar-track {
-  background: #f1f1f1;
+  background: #ffffff;
   border-radius: 10px;
 }
 
@@ -45,5 +45,5 @@
 
 .custom-scroll {
   scrollbar-width: thin;
-  scrollbar-color: #000 #f1f1f1;
+  scrollbar-color: #000 #ffffff;
 }
